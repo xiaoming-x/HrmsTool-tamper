@@ -9,10 +9,10 @@
 修改tamper配置
 
 ```
-    //java环境路径（java 1.8）
-    java_path = r"path to\java.exe"
-    //HrmsTool.jar路径
-    hrms_tool_path = r"path to\HrmsTool.jar"
+#java环境路径（java 1.8）
+java_path = r"path to\java.exe"
+#HrmsTool.jar路径
+hrms_tool_path = r"path to\HrmsTool.jar"
 ```
 
 将=HrmsTool-tamper.py放入sqlmap的tamper目录下

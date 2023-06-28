@@ -26,3 +26,7 @@ sqlmap.py --tamper=HrmsTool-tamper
 举个栗子
 
 ![image-20230628214906533](./README/image-20230628214906533.png)
+
+## 哦豁
+实际用下来好像没啥叼用，就这样吧
+欢迎各位师傅提交 Issue 和 Pull requests，一起完善

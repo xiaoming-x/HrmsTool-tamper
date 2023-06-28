@@ -1,4 +1,7 @@
 # HrmsTool-tamper
+郑重声明：文中所涉及的技术、思路和工具仅供以安全为目的的学习交流使用，任何人不得将其用于非法用途以及盈利等目的，否则后果自行承担。
+
+复现CNVD-2023-08743部分payload不会打，遂借助脚本及sqlmap实现
 
 将HrmsTool与sqlmap进行联动
 
@@ -9,9 +12,11 @@
 修改tamper配置
 
 ```
-#java环境路径（java 1.8）
+#ava环境路径（java 1.8）
+#如java_path = r"D:\java.exe"
 java_path = r"path to\java.exe"
 #HrmsTool.jar路径
+#如hrms_tool_path = r"D:\HrmsTool.jar"
 hrms_tool_path = r"path to\HrmsTool.jar"
 ```
 

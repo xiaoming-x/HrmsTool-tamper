@@ -2,7 +2,7 @@
 
 将HrmsTool与sqlmap进行联动
 
-感谢[[vaycore](https://github.com/vaycore/HrmsTool/commits?author=vaycore)]提供的 [HrmsTool](https://github.com/vaycore/HrmsTool)
+感谢[[vaycore](https://github.com/vaycore)]提供的 [HrmsTool](https://github.com/vaycore/HrmsTool)
 
 ## 食用方式
 

@@ -28,6 +28,9 @@ class HrmsToolTamper:
             return None
 
     def tamper(self, payload, **kwargs):
+        # 在 payload 尾部加上 '-- '
+        payload += "-- "
+
         encrypted_payload = self.encrypt_payload(payload)
 
         if encrypted_payload is not None:
@@ -40,10 +43,11 @@ class HrmsToolTamper:
         return payload
 
 def tamper(payload, **kwargs):
-    #java环境路径（java 1.8）    
-    java_path = r"xxxx\java.exe"
-    #HrmsTool.jar路径    
-    hrms_tool_path = r"xxxx\HrmsTool.jar"
+    #java环境（java 1.8）
+    java_path = r"path to\java.exe"
+    #HrmsTool路径
+    hrms_tool_path = r"path to\HrmsTool.jar"
+
     tamper_obj = HrmsToolTamper(java_path, hrms_tool_path)
 
     try:

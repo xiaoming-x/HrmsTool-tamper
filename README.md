@@ -32,6 +32,9 @@ sqlmap.py --tamper=HrmsTool-tamper
 
 ![image-20230628214906533](./README/image-20230628214906533.png)
 
+实际复现过程中发现部分payload在没有'-- '时会出现注入失败的情况
+于是改了下脚本，在每个payload末尾自动加入'-- '
+
 ## 哦豁
 实际用下来好像没啥叼用，就这样吧
 欢迎各位师傅提交 Issue 和 Pull requests，一起完善
